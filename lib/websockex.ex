@@ -170,7 +170,7 @@ defmodule WebSockex do
   @doc """
   Invoked when the WebSocket disconnects from the server.
 
-  This callback is only invoked in the even of a connection failure. In cases
+  This callback is only invoked in the event of a connection failure. In cases
   of crashes or other errors then the process will terminate immediately
   skipping this callback.
 
